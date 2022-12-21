@@ -3,8 +3,8 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node!\n'
-  res.end("<html><body><h1>Hello World!</h1></body></html>");
+  const msg = 'Helloooooooooo help me pls \n'
+  res.end(msg);
 });
 
 server.listen(port, () => {
